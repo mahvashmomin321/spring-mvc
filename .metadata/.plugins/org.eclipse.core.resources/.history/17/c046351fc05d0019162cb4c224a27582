@@ -1,0 +1,12 @@
+package com.capgemini.bankapp.exceprtion;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+
+@ExceptionHandler(BankAccountNotFoundException.class)
+public class BankAccountNotFoundException extends Exception {
+
+	public BankAccountNotFoundException(String message) {
+		super(message);
+		
+	}
+
+}

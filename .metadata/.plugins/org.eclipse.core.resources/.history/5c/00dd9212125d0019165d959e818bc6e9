@@ -1,0 +1,49 @@
+package com.capgemini.spring.mvc.model.dao;
+
+import java.util.List;
+
+import com.capgemini.spring.mvc.model.entity.Person;
+
+public class PersonDaoImp implements PersonDao {
+
+	
+	/* (non-Javadoc)
+	 * @see com.capgemini.spring.mvc.model.dao.PersonDao#addNew(com.capgemini.spring.mvc.model.entity.Person)
+	 */
+	public void addNew(Person person) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see com.capgemini.spring.mvc.model.dao.PersonDao#getAllDetails()
+	 */
+	public List<Person> getAllDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	/* (non-Javadoc)
+	 * @see com.capgemini.spring.mvc.model.dao.PersonDao#update(com.capgemini.spring.mvc.model.entity.Person)
+	 */
+	public void update(Person person) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see com.capgemini.spring.mvc.model.dao.PersonDao#delete(int)
+	 */
+	public void delete(int personId) {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see com.capgemini.spring.mvc.model.dao.PersonDao#getPerson(int)
+	 */
+	public Person getPerson(int personId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

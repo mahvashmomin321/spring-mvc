@@ -1,0 +1,4 @@
+package com.capgemini.spring.mvc.model.dao;
+
+public interface PersonDaoImp extends PersonDao {
+}

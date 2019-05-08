@@ -1,0 +1,11 @@
+<%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h2> Successful...!!!</h2>
+</body>
+</html>

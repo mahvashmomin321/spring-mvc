@@ -1,0 +1,33 @@
+package com.capgemini.spring.mvc.model.dao;
+
+import java.util.List;
+
+import com.capgemini.spring.mvc.model.entity.Person;
+
+public interface PersonDaoImp {
+
+	public void addNew(Person person) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public List<Person> getAllDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void update(Person person) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void delete(int personId) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public Person getPerson(int personId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
